@@ -14,7 +14,6 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 
-import embed_utils
 
 
 torch.manual_seed(0)
